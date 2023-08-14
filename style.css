@@ -100,6 +100,9 @@ main {
 
 .main-top-item {
     font-size: 18px;
+    width: 25%;
+    min-width: 350px;
+    max-width: 500px;
 }
 
 .item-img {
@@ -107,8 +110,12 @@ main {
     border-radius: 10px;
     width: 100%;
     height: auto;
-    min-height: 300px;
-    flex: 1 1 auto;
+    margin: 0;
+}
+
+.item-img img {
+    display: block;
+    width: 100%;
 }
 
 .main-middle {
@@ -137,7 +144,7 @@ main {
     background-color: #3882F6;
     color: #F9FAF8;
     width: 80%;
-    height: 35vh;
+    height: 20%;
     margin: 5rem;
     border-radius: 15px;
     display: flex;
@@ -161,7 +168,7 @@ main {
 .main-bottom-right {
     margin: 2rem 5rem;
     border: 2px solid #F9FAF8;
-    padding: 0.1rem 1.2rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 5px;
 }
 
@@ -169,4 +176,19 @@ main {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 1rem 10%;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
 }

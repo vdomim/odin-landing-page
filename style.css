@@ -167,15 +167,15 @@ main {
 
 .main-bottom-right {
     margin: 2rem 5rem;
-    border: 2px solid #F9FAF8;
-    padding: 0.3rem 1.5rem;
-    border-radius: 5px;
 }
 
 .main-bottom-right button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
+    padding: 0.8rem 3rem;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
 }
 
 footer {

@@ -132,3 +132,41 @@ main {
     text-align: right;
     margin: auto auto 5rem;
 }
+
+.main-bottom {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 80%;
+    height: 35vh;
+    margin: 5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-bottom-left {
+    flex-grow: 1;
+    margin: 2rem 5rem;
+}
+
+.main-bottom-left h2 {
+    font-size: 24px;
+}
+
+.main-bottom-left p {
+    font-size: 18px;
+}
+
+.main-bottom-right {
+    margin: 2rem 5rem;
+    border: 2px solid #F9FAF8;
+    padding: 0.1rem 1.2rem;
+    border-radius: 5px;
+}
+
+.main-bottom-right button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+}
